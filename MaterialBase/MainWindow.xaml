@@ -1,0 +1,21 @@
+﻿<controls:MetroWindow x:Class="MaterialBase.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      Title="Leafy FTW 🍂"
+                      Width="1280"
+                      Height="720"
+                      Background="{DynamicResource MaterialDesignPaper}"
+                      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+                      FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+                      GlowBrush="{DynamicResource AccentColorBrush}"
+                      ShowIconOnTitleBar="True"
+                      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+                      TitleCaps="False"
+                      WindowStartupLocation="CenterScreen"
+                      x:ClassModifier="internal"
+                      mc:Ignorable="d" Loaded="MetroWindow_Loaded">
+    <Grid />
+</controls:MetroWindow>
